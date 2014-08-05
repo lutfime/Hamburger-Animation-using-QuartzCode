@@ -21,6 +21,7 @@
 		C76C9D47199069D900F9690B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76C9D29199069D900F9690B /* UIKit.framework */; };
 		C76C9D4F199069D900F9690B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C76C9D4D199069D900F9690B /* InfoPlist.strings */; };
 		C76C9D51199069D900F9690B /* HamburgerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C76C9D50199069D900F9690B /* HamburgerViewTests.m */; };
+		C76C9D5C199069EB00F9690B /* HamburgerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C76C9D5B199069EB00F9690B /* HamburgerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C76C9D4C199069D900F9690B /* HamburgerViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HamburgerViewTests-Info.plist"; sourceTree = "<group>"; };
 		C76C9D4E199069D900F9690B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C76C9D50199069D900F9690B /* HamburgerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HamburgerViewTests.m; sourceTree = "<group>"; };
+		C76C9D5A199069EB00F9690B /* HamburgerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HamburgerView.h; sourceTree = "<group>"; };
+		C76C9D5B199069EB00F9690B /* HamburgerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HamburgerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				C76C9D37199069D900F9690B /* Main.storyboard */,
 				C76C9D3A199069D900F9690B /* ViewController.h */,
 				C76C9D3B199069D900F9690B /* ViewController.m */,
+				C76C9D5A199069EB00F9690B /* HamburgerView.h */,
+				C76C9D5B199069EB00F9690B /* HamburgerView.m */,
 				C76C9D3D199069D900F9690B /* Images.xcassets */,
 				C76C9D2C199069D900F9690B /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			files = (
 				C76C9D3C199069D900F9690B /* ViewController.m in Sources */,
 				C76C9D36199069D900F9690B /* AppDelegate.m in Sources */,
+				C76C9D5C199069EB00F9690B /* HamburgerView.m in Sources */,
 				C76C9D32199069D900F9690B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

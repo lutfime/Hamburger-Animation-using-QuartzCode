@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "HamburgerView.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet HamburgerView *hamburgerView;
 
 @end
 
@@ -25,5 +27,10 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (IBAction)animate:(id)sender {
+    [self.hamburgerView startAllAnimations:nil];
+}
+
 
 @end
